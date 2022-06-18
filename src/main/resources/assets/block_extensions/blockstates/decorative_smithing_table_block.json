@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "block_extensions:block/decorative_smithing_table"
+        }
+    }
+}
