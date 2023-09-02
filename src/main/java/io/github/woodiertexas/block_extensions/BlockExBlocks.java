@@ -29,6 +29,7 @@ public class BlockExBlocks {
 	public static final Block DECO_SMITHING_TABLE = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
 	public static final Block DECO_SMITHING_TABLE_TWO = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
 	public static final Block HONEYED_PLANKS = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block MISSING_TEXTURE = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
 
 
 	public static void init() {
@@ -41,6 +42,7 @@ public class BlockExBlocks {
 		blocksToRegister.put("deco_smithing_table", DECO_SMITHING_TABLE);
 		blocksToRegister.put("deco_smithing_table_two", DECO_SMITHING_TABLE_TWO);
 		blocksToRegister.put("honeyed_planks", HONEYED_PLANKS);
+		blocksToRegister.put("missing_texture", MISSING_TEXTURE);
 
 
 		for (String blockId : blocksToRegister.keySet()) {

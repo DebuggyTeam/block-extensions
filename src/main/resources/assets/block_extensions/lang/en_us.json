@@ -1,0 +1,12 @@
+{
+	"block.block_extensions.bugged_piston": "Bugged Piston",
+	"block.block_extensions.deco_chiseled_bookshelf": "Chiseled Bookshelf Top",
+	"block.block_extensions.deco_daylight_detector": "Daylight Detector Side",
+	"block.block_extensions.deco_jigsaw": "Jigsaw Bottom",
+	"block.block_extensions.deco_nether_portal": "Fake Nether Portal Block",
+	"block.block_extensions.deco_observer": "Observer Side",
+	"block.block_extensions.deco_smithing_table": "Smithing Table Top",
+	"block.block_extensions.deco_smithing_table_two": "Smithing Table Bottom",
+	"block.block_extensions.honeyed_planks": "Honeyed Planks",
+	"block.block_extensions.missing_texture": "Missing Texture Block"
+}
