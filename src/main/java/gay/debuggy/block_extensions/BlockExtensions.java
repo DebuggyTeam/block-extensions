@@ -1,4 +1,4 @@
-package io.github.woodiertexas.block_extensions;
+package gay.debuggy.block_extensions;
 
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;

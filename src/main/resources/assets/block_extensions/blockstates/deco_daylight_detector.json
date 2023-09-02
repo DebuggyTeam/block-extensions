@@ -1,7 +1,7 @@
 {
-    "variants": {
-        "": {
-            "model": "block_extensions:block/deco_daylight_detector"
-        }
-    }
+	"variants": {
+		"": {
+			"model": "block_extensions:block/deco_daylight_detector"
+		}
+	}
 }

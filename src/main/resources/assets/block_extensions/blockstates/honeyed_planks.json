@@ -1,7 +1,7 @@
 {
-    "variants": {
-        "": {
-            "model": "block_extensions:block/honeyed_planks"
-        }
-    }
+	"variants": {
+		"": {
+			"model": "block_extensions:block/honeyed_planks"
+		}
+	}
 }

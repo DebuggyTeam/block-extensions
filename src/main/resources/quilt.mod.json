@@ -1,14 +1,15 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "io.github.woodiertexas",
+		"group": "gay.debuggy",
 		"id": "block_extensions",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Block Extensions",
+			"description": "A mod adding in some more decorative blocks (usually textures from non-building blocks).",
 			"contributors": {
-				"Me!": "Owner"
+				"Debuggy": "Owner",
+				"woodiertexas": "Original Author"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
@@ -19,20 +20,20 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "io.github.woodiertexas.block_extensions.BlockExtensions"
+			"init": "gay.debuggy.block_extensions.BlockExtensions"
 		},
 		"depends": [
 			{
 				"id": "quilt_loader",
-				"versions": ">=0.17.0-"
+				"versions": ">=0.20.0"
 			},
 			{
 				"id": "quilted_fabric_api",
-				"versions": ">=2.0.0-"
+				"versions": ">=7.0.0"
 			},
 			{
 				"id": "minecraft",
-				"versions": ">=1.19"
+				"versions": ">=1.20.1"
 			}
 		]
 	}

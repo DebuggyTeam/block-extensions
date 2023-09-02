@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:block/cube_all",
-    "textures": {
-        "all": "minecraft:block/jigsaw_bottom"
-    }
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "minecraft:block/jigsaw_bottom"
+	}
 }

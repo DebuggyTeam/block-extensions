@@ -1,7 +1,7 @@
 {
-    "variants": {
-        "": {
-            "model": "block_extensions:block/deco_smithing_table"
-        }
-    }
+	"variants": {
+		"": {
+			"model": "block_extensions:block/deco_smithing_table"
+		}
+	}
 }

@@ -1,7 +1,7 @@
 {
-    "variants": {
-        "": {
-            "model": "block_extensions:block/deco_jigsaw"
-        }
-    }
+	"variants": {
+		"": {
+			"model": "block_extensions:block/deco_jigsaw"
+		}
+	}
 }

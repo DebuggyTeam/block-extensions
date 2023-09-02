@@ -1,4 +1,4 @@
-package io.github.woodiertexas.block_extensions;
+package gay.debuggy.block_extensions;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Block;
@@ -13,8 +13,8 @@ import org.quiltmc.qsl.item.setting.api.QuiltItemSettings;
 
 import java.util.HashMap;
 
-import static io.github.woodiertexas.block_extensions.BlockExtensions.LOGGER;
-import static io.github.woodiertexas.block_extensions.BlockExtensions.MOD_ID;
+import static gay.debuggy.block_extensions.BlockExtensions.LOGGER;
+import static gay.debuggy.block_extensions.BlockExtensions.MOD_ID;
 
 public class BlockExBlocks {
 	public static HashMap<String, Block> blocksToRegister = new HashMap<>();

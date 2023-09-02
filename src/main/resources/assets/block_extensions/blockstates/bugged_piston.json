@@ -1,7 +1,7 @@
 {
-    "variants": {
-        "": {
-            "model": "block_extensions:block/bugged_piston"
-        }
-    }
+	"variants": {
+		"": {
+			"model": "block_extensions:block/bugged_piston"
+		}
+	}
 }
