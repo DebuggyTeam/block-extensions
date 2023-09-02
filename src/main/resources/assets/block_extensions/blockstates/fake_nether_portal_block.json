@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "block_extensions:block/fake_nether_portal_block"
+		}
+	}
+}

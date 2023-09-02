@@ -1,16 +1,19 @@
 {
 	"block.block_extensions.bugged_piston": "Bugged Piston",
+	"block.block_extensions.cast_iron_block": "Block of Cast Iron",
 	"block.block_extensions.deco_barrel": "Barrel Side",
 	"block.block_extensions.deco_chiseled_bookshelf": "Chiseled Bookshelf Top",
 	"block.block_extensions.deco_daylight_detector": "Daylight Detector Side",
 	"block.block_extensions.deco_jigsaw": "Jigsaw Bottom",
-	"block.block_extensions.deco_nether_portal": "Fake Nether Portal Block",
 	"block.block_extensions.deco_observer": "Observer Side",
 	"block.block_extensions.deco_smithing_table": "Smithing Table Top",
-	"block.block_extensions.deco_smithing_table_two": "Smithing Table Bottom",
 	"block.block_extensions.fake_command_block": "Fake Command Block",
 	"block.block_extensions.fake_chain_command_block": "Fake Chain Command Block",
+	"block.block_extensions.fake_nether_portal_block": "Fake Nether Portal Block",
 	"block.block_extensions.fake_repeating_command_block": "Fake Repeating Command Block",
 	"block.block_extensions.honeyed_planks": "Honeyed Planks",
-	"block.block_extensions.missing_texture": "Missing Texture Block"
+	"block.block_extensions.missing_texture": "Missing Texture Block",
+	"block.block_extensions.stone_tile": "Stone Tile",
+	"block.block_extensions.thirty_six": "Block Thirty Six",
+	"block.block_extensions.wrought_iron_block": "Block of Wrought Iron"
 }
