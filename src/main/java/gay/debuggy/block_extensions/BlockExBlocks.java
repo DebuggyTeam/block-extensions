@@ -1,5 +1,6 @@
 package gay.debuggy.block_extensions;
 
+import gay.debuggy.block_extensions.blocks.MissingTextureBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -33,7 +34,7 @@ public class BlockExBlocks {
 	public static final Block FAKE_CHAIN_COMMAND_BLOCK = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
 	public static final Block FAKE_REPEATING_COMMAND_BLOCK = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
 	public static final Block HONEYED_PLANKS = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
-	public static final Block MISSING_TEXTURE = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final MissingTextureBlock MISSING_TEXTURE = new MissingTextureBlock(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
 
 
 	public static void init() {

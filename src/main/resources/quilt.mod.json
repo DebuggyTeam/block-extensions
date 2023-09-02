@@ -20,7 +20,8 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "gay.debuggy.block_extensions.BlockExtensions"
+			"init": "gay.debuggy.block_extensions.BlockExtensions",
+			"client_init": "gay.debuggy.block_extensions.client.BlockExtensionsClient"
 		},
 		"depends": [
 			{
