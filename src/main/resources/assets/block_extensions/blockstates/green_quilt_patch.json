@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "block_extensions:block/green_quilt_patch"
+        }
+    }
+}

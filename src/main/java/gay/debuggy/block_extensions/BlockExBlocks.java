@@ -4,7 +4,6 @@ import gay.debuggy.block_extensions.blocks.MissingTextureBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.GrassBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -15,13 +14,12 @@ import org.quiltmc.qsl.item.setting.api.QuiltItemSettings;
 
 import java.util.HashMap;
 
-import static gay.debuggy.block_extensions.BlockExtensions.LOGGER;
 import static gay.debuggy.block_extensions.BlockExtensions.MOD_ID;
 
 public class BlockExBlocks {
 	public static HashMap<String, Block> blocksToRegister = new HashMap<>();
 
-	// Blocks
+	// General Blocks
 	public static final Block BUGGED_PISTON = new Block(QuiltBlockSettings.copyOf(Blocks.OAK_PLANKS));
 	public static final Block CAST_IRON_BLOCK = new Block(QuiltBlockSettings.copyOf(Blocks.IRON_BLOCK));
 	public static final Block DECO_BARREL = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
@@ -39,6 +37,23 @@ public class BlockExBlocks {
 	public static final Block STONE_TILE = new Block(QuiltBlockSettings.copyOf(Blocks.STONE));
 	public static final Block THIRTY_SIX = new Block(QuiltBlockSettings.copyOf(Blocks.GRASS_BLOCK));
 	public static final Block WROUGHT_IRON_BLOCK = new Block(QuiltBlockSettings.copyOf(Blocks.IRON_BLOCK));
+	
+	public static final Block RED_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.RED_WOOL));
+	public static final Block ORANGE_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.ORANGE_WOOL));
+	public static final Block YELLOW_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.YELLOW_WOOL));
+	public static final Block LIME_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.LIME_WOOL));
+	public static final Block GREEN_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.GREEN_WOOL));
+	public static final Block CYAN_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.CYAN_WOOL));
+	public static final Block LIGHT_BLUE_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.LIGHT_BLUE_WOOL));
+	public static final Block BLUE_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.BLUE_WOOL));
+	public static final Block PURPLE_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.PURPLE_WOOL));
+	public static final Block MAGENTA_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.MAGENTA_WOOL));
+	public static final Block PINK_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.PINK_WOOL));
+	public static final Block BROWN_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.BROWN_WOOL));
+	public static final Block BLACK_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.BLACK_WOOL));
+	public static final Block GRAY_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.GRAY_WOOL));
+	public static final Block LIGHT_GRAY_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.LIGHT_GRAY_WOOL));
+	public static final Block WHITE_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
 
 
 	public static void init() {
@@ -59,6 +74,23 @@ public class BlockExBlocks {
 		blocksToRegister.put("stone_tile", STONE_TILE);
 		blocksToRegister.put("thirty_six", THIRTY_SIX);
 		blocksToRegister.put("wrought_iron_block", WROUGHT_IRON_BLOCK);
+		
+		blocksToRegister.put("red_quilt_patch", RED_QUILT_PATCH);
+		blocksToRegister.put("orange_quilt_patch", ORANGE_QUILT_PATCH);
+		blocksToRegister.put("yellow_quilt_patch", YELLOW_QUILT_PATCH);
+		blocksToRegister.put("lime_quilt_patch", LIME_QUILT_PATCH);
+		blocksToRegister.put("green_quilt_patch", GREEN_QUILT_PATCH);
+		blocksToRegister.put("cyan_quilt_patch", CYAN_QUILT_PATCH);
+		blocksToRegister.put("light_blue_quilt_patch", LIGHT_BLUE_QUILT_PATCH);
+		blocksToRegister.put("blue_quilt_patch", BLUE_QUILT_PATCH);
+		blocksToRegister.put("purple_quilt_patch", PURPLE_QUILT_PATCH);
+		blocksToRegister.put("magenta_quilt_patch", MAGENTA_QUILT_PATCH);
+		blocksToRegister.put("pink_quilt_patch", PINK_QUILT_PATCH);
+		blocksToRegister.put("brown_quilt_patch", BROWN_QUILT_PATCH);
+		blocksToRegister.put("black_quilt_patch", BLACK_QUILT_PATCH);
+		blocksToRegister.put("gray_quilt_patch", GRAY_QUILT_PATCH);
+		blocksToRegister.put("light_gray_quilt_patch", LIGHT_GRAY_QUILT_PATCH);
+		blocksToRegister.put("white_quilt_patch", WHITE_QUILT_PATCH);
 
 
 		for (String blockId : blocksToRegister.keySet()) {

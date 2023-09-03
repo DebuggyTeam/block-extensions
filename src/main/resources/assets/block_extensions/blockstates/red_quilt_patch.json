@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "block_extensions:block/red_quilt_patch"
+        }
+    }
+}
