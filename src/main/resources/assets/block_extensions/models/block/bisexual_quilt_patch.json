@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "block_extensions:block/bisexual_quilt_patch"
+    }
+}

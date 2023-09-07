@@ -22,9 +22,10 @@ public class BlockExBlocks {
 	// General Blocks
 	public static final Block BUGGED_PISTON = new Block(QuiltBlockSettings.copyOf(Blocks.OAK_PLANKS));
 	public static final Block CAST_IRON_BLOCK = new Block(QuiltBlockSettings.copyOf(Blocks.IRON_BLOCK));
-	public static final Block DECO_BARREL = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block COBBLESTONE_TILE = new Block(QuiltBlockSettings.copyOf(Blocks.STONE));
+	public static final Block DECO_BARREL = new Block(QuiltBlockSettings.copyOf(Blocks.OAK_PLANKS));
 	public static final Block DECO_CHISELED_BOOKSHELF = new Block(QuiltBlockSettings.copyOf(Blocks.OAK_PLANKS));
-	public static final Block DECO_DAYLIGHT_DETECTOR = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block DECO_DAYLIGHT_DETECTOR = new Block(QuiltBlockSettings.copyOf(Blocks.OAK_PLANKS));
 	public static final Block DECO_JIGSAW = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
 	public static final Block DECO_OBSERVER = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
 	public static final Block DECO_SMITHING_TABLE = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
@@ -34,6 +35,7 @@ public class BlockExBlocks {
 	public static final Block FAKE_REPEATING_COMMAND_BLOCK = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
 	public static final Block HONEYED_PLANKS = new Block(QuiltBlockSettings.copyOf(Blocks.OAK_PLANKS));
 	public static final MissingTextureBlock MISSING_TEXTURE = new MissingTextureBlock(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block STICKY_BUGGED_PISTON = new Block(QuiltBlockSettings.copyOf(Blocks.OAK_PLANKS));
 	public static final Block STONE_TILE = new Block(QuiltBlockSettings.copyOf(Blocks.STONE));
 	public static final Block THIRTY_SIX = new Block(QuiltBlockSettings.copyOf(Blocks.GRASS_BLOCK));
 	public static final Block WROUGHT_IRON_BLOCK = new Block(QuiltBlockSettings.copyOf(Blocks.IRON_BLOCK));
@@ -54,6 +56,25 @@ public class BlockExBlocks {
 	public static final Block GRAY_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.GRAY_WOOL));
 	public static final Block LIGHT_GRAY_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.LIGHT_GRAY_WOOL));
 	public static final Block WHITE_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	
+	public static final Block AGENDER_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block AROACE_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block AROMANTIC_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block ASEXUAL_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block BISEXUAL_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block DEMIBOY_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block DEMIGIRL_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block DISABILITY_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block GAY_MEN_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block GAY_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block GENDERFAE_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block GENDERQUEER_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block LESBIAN_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block NONBINARY_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block PANSEXUAL_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block PLURAL_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block POLYSEXUAL_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
+	public static final Block TRANSGENDER_QUILT_PATCH = new Block(QuiltBlockSettings.copyOf(Blocks.WHITE_WOOL));
 
 
 	public static void init() {
@@ -71,7 +92,9 @@ public class BlockExBlocks {
 		blocksToRegister.put("fake_repeating_command_block", FAKE_REPEATING_COMMAND_BLOCK);
 		blocksToRegister.put("honeyed_planks", HONEYED_PLANKS);
 		blocksToRegister.put("missing_texture", MISSING_TEXTURE);
+		blocksToRegister.put("sticky_bugged_piston", STICKY_BUGGED_PISTON);
 		blocksToRegister.put("stone_tile", STONE_TILE);
+		blocksToRegister.put("cobblestone_tile", COBBLESTONE_TILE);
 		blocksToRegister.put("thirty_six", THIRTY_SIX);
 		blocksToRegister.put("wrought_iron_block", WROUGHT_IRON_BLOCK);
 		
@@ -91,6 +114,25 @@ public class BlockExBlocks {
 		blocksToRegister.put("gray_quilt_patch", GRAY_QUILT_PATCH);
 		blocksToRegister.put("light_gray_quilt_patch", LIGHT_GRAY_QUILT_PATCH);
 		blocksToRegister.put("white_quilt_patch", WHITE_QUILT_PATCH);
+		
+		blocksToRegister.put("agender_quilt_patch", AGENDER_QUILT_PATCH);
+		blocksToRegister.put("aroace_quilt_patch", AROACE_QUILT_PATCH);
+		blocksToRegister.put("aromantic_quilt_patch", AROMANTIC_QUILT_PATCH);
+		blocksToRegister.put("asexual_quilt_patch", ASEXUAL_QUILT_PATCH);
+		blocksToRegister.put("bisexual_quilt_patch", BISEXUAL_QUILT_PATCH);
+		blocksToRegister.put("demiboy_quilt_patch", DEMIBOY_QUILT_PATCH);
+		blocksToRegister.put("demigirl_quilt_patch", DEMIGIRL_QUILT_PATCH);
+		blocksToRegister.put("disability_quilt_patch", DISABILITY_QUILT_PATCH);
+		blocksToRegister.put("gay_men_quilt_patch", GAY_MEN_QUILT_PATCH);
+		blocksToRegister.put("gay_quilt_patch", GAY_QUILT_PATCH);
+		blocksToRegister.put("genderfae_quilt_patch", GENDERFAE_QUILT_PATCH);
+		blocksToRegister.put("genderqueer_quilt_patch", GENDERQUEER_QUILT_PATCH);
+		blocksToRegister.put("lesbian_quilt_patch", LESBIAN_QUILT_PATCH);
+		blocksToRegister.put("nonbinary_quilt_patch", NONBINARY_QUILT_PATCH);
+		blocksToRegister.put("pansexual_quilt_patch", PANSEXUAL_QUILT_PATCH);
+		blocksToRegister.put("plural_quilt_patch", PLURAL_QUILT_PATCH);
+		blocksToRegister.put("polysexual_quilt_patch", POLYSEXUAL_QUILT_PATCH);
+		blocksToRegister.put("transgender_quilt_patch", TRANSGENDER_QUILT_PATCH);
 
 
 		for (String blockId : blocksToRegister.keySet()) {

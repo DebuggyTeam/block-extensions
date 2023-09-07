@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "block_extensions:block/plural_quilt_patch"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "block_extensions:block/genderqueer_quilt_patch"
+        }
+    }
+}

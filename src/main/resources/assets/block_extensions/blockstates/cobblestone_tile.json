@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "block_extensions:block/cobblestone_tile"
+        }
+    }
+}

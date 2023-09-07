@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "block_extensions:block/agender_quilt_patch"
+        }
+    }
+}
