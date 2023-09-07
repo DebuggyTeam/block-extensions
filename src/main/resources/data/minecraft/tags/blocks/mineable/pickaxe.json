@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"block_extensions:cast_iron_block",
+		"block_extensions:cobblestone_tile",
+		"block_extensions:stone_tile",
+		"block_extensions:wrought_iron_block"
+	]
+}

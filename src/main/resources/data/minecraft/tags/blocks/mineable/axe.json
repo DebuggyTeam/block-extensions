@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"block_extensions:bugged_piston",
+		"block_extensions:deco_barrel",
+		"block_extensions:deco_chiseled_bookshelf",
+		"block_extensions:deco_daylight_detector",
+		"block_extensions:honeyed_planks",
+		"block_extensions:sticky_bugged_piston"
+	]
+}

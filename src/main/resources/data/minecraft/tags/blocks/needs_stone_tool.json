@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"block_extensions:cobblestone_tile",
+		"block_extensions:stone_tile"
+	]
+}
