@@ -12,8 +12,6 @@ public class BlockExtensions implements ModInitializer {
 
 	@Override
 	public void onInitialize(ModContainer mod) {
-		LOGGER.info("Hello Quilt world from {}!", mod.metadata().name());
-
 		BlockExBlocks.init();
 	}
 }
