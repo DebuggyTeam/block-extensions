@@ -1,0 +1,11 @@
+{
+	"only_if_present": "block_extensions",
+	"name": "honeyed_plank",
+	"base_block": "block_extensions:honeyed_planks",
+	"textures": "minecraft:block/bee_nest_side",
+	"recipes": "sawing",
+	"map_color": "yellow",
+	"types_to_generate": [
+		"#wood"
+	]
+}
