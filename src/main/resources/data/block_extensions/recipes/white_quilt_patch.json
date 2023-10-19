@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#W#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:string"
+		},
+		"W": {
+			"item": "minecraft:white_wool"
+		}
+	},
+	"result": {
+		"item": "block_extensions:white_quilt_patch",
+		"count": 1
+	}
+}
