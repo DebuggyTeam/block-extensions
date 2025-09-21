@@ -1,7 +1,5 @@
 package gay.debuggy.block_extensions;
 
-//import gay.debuggy.block_extensions.blocks.MissingTextureBlock;
-import gay.debuggy.block_extensions.blocks.FakeWaterBlock;
 import gay.debuggy.block_extensions.blocks.MissingTextureBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
@@ -41,8 +39,7 @@ public class BlockExBlocks {
 	public static final Block STONE_TILE = new Block(AbstractBlock.Settings.copy(Blocks.STONE));
 	public static final Block THIRTY_SIX = new Block(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK));
 	public static final Block WROUGHT_IRON_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK));
-	public static final FakeWaterBlock FAKE_WATER_BLOCK = new FakeWaterBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL));
-
+	
 	public static final Block RED_QUILT_PATCH = new Block(AbstractBlock.Settings.copy(Blocks.RED_WOOL));
 	public static final Block ORANGE_QUILT_PATCH = new Block(AbstractBlock.Settings.copy(Blocks.ORANGE_WOOL));
 	public static final Block YELLOW_QUILT_PATCH = new Block(AbstractBlock.Settings.copy(Blocks.YELLOW_WOOL));
@@ -59,7 +56,7 @@ public class BlockExBlocks {
 	public static final Block GRAY_QUILT_PATCH = new Block(AbstractBlock.Settings.copy(Blocks.GRAY_WOOL));
 	public static final Block LIGHT_GRAY_QUILT_PATCH = new Block(AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_WOOL));
 	public static final Block WHITE_QUILT_PATCH = new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL));
-
+	
 	public static final Block AGENDER_QUILT_PATCH = new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL));
 	public static final Block AROACE_QUILT_PATCH = new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL));
 	public static final Block AROMANTIC_QUILT_PATCH = new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL));
@@ -100,8 +97,7 @@ public class BlockExBlocks {
 		blocksToRegister.put("cobblestone_tile", COBBLESTONE_TILE);
 		blocksToRegister.put("thirty_six", THIRTY_SIX);
 		blocksToRegister.put("wrought_iron_block", WROUGHT_IRON_BLOCK);
-		blocksToRegister.put("fake_water_block", FAKE_WATER_BLOCK);
-
+		
 		blocksToRegister.put("red_quilt_patch", RED_QUILT_PATCH);
 		blocksToRegister.put("orange_quilt_patch", ORANGE_QUILT_PATCH);
 		blocksToRegister.put("yellow_quilt_patch", YELLOW_QUILT_PATCH);
@@ -118,7 +114,7 @@ public class BlockExBlocks {
 		blocksToRegister.put("gray_quilt_patch", GRAY_QUILT_PATCH);
 		blocksToRegister.put("light_gray_quilt_patch", LIGHT_GRAY_QUILT_PATCH);
 		blocksToRegister.put("white_quilt_patch", WHITE_QUILT_PATCH);
-
+		
 		blocksToRegister.put("agender_quilt_patch", AGENDER_QUILT_PATCH);
 		blocksToRegister.put("aroace_quilt_patch", AROACE_QUILT_PATCH);
 		blocksToRegister.put("aromantic_quilt_patch", AROMANTIC_QUILT_PATCH);
