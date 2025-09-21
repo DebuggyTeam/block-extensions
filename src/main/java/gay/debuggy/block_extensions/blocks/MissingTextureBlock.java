@@ -27,7 +27,6 @@ public class MissingTextureBlock extends Block {
 		builder.add(COLOR);
 	}
 	
-	@Override
 	public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
 		ItemStack stack = player.getStackInHand(hand);
 		if (player.canModifyBlocks() && stack.getItem() instanceof DyeItem dye) {

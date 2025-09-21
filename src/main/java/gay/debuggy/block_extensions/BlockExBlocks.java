@@ -34,7 +34,7 @@ public class BlockExBlocks {
 	public static final Block FAKE_NETHER_PORTAL_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL));
 	public static final Block FAKE_REPEATING_COMMAND_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL));
 	public static final Block HONEYED_PLANKS = new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS));
-	public static final MissingTextureBlock MISSING_TEXTURE = new MissingTextureBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL));
+	//public static final MissingTextureBlock MISSING_TEXTURE = new MissingTextureBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL));
 	public static final Block STICKY_BUGGED_PISTON = new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS));
 	public static final Block STONE_TILE = new Block(AbstractBlock.Settings.copy(Blocks.STONE));
 	public static final Block THIRTY_SIX = new Block(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK));
@@ -91,7 +91,7 @@ public class BlockExBlocks {
 		blocksToRegister.put("fake_nether_portal_block", FAKE_NETHER_PORTAL_BLOCK);
 		blocksToRegister.put("fake_repeating_command_block", FAKE_REPEATING_COMMAND_BLOCK);
 		blocksToRegister.put("honeyed_planks", HONEYED_PLANKS);
-		blocksToRegister.put("missing_texture", MISSING_TEXTURE);
+		//blocksToRegister.put("missing_texture", MISSING_TEXTURE);
 		blocksToRegister.put("sticky_bugged_piston", STICKY_BUGGED_PISTON);
 		blocksToRegister.put("stone_tile", STONE_TILE);
 		blocksToRegister.put("cobblestone_tile", COBBLESTONE_TILE);
