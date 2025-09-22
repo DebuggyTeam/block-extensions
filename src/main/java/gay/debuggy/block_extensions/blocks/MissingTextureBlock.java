@@ -16,31 +16,31 @@ import net.minecraft.world.World;
 
 public class MissingTextureBlock extends Block {
 	public static final EnumProperty<DyeColor> COLOR = EnumProperty.of("color", DyeColor.class);
-	
+
 	public MissingTextureBlock(Settings settings) {
 		super(settings);
 	}
-	
+
 	// Thanks falkreon
 	@Override
 	protected void appendProperties(Builder<Block, BlockState> builder) {
 		builder.add(COLOR);
 	}
-	
-	@Override
+
+	//@Override
 	public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
 		ItemStack stack = player.getStackInHand(hand);
 		if (player.canModifyBlocks() && stack.getItem() instanceof DyeItem dye) {
 			DyeColor dyeColor = dye.getColor();
 			world.setBlockState(pos, state.with(COLOR, dyeColor), Block.NOTIFY_ALL);
-			
+
 			if (!player.isCreative()) {
 				stack.decrement(1);
 			}
-			
+
 			return ActionResult.SUCCESS;
 		}
-		
+
 		return ActionResult.PASS;
 	}
 }

@@ -12,10 +12,10 @@
 				"woodiertexas": "Original Author"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
+				"homepage": "https://modrinth.com/mod/block-ex",
 				"issues": "https://github.com/debuggyteam/block-extensions/issues",
 				"sources": "https://github.com/debuggyteam/block-extensions",
-				"discord": "https://debuggy.gay/discord"
+				"discord": "https://discord.debuggy.gay"
 			},
 			"icon": "assets/block_extensions/icon.png"
 		},

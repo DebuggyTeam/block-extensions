@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "block_extensions",
+	"version": "${version}",
+	"name": "Block Extensions",
+	"description": "A mod adding in some more decorative blocks (usually textures from non-building blocks).",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/block-ex",
+		"issues": "https://github.com/debuggyteam/block-extensions/issues",
+		"sources": "https://github.com/debuggyteam/block-extensions",
+		"discord": "https://discord.debuggy.gay"
+	},
+	"license": "MIT",
+	"icon": "assets/block_extensions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"gay.debuggy.block_extensions.BlockExtensions"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
